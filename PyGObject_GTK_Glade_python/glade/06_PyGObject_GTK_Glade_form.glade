@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.22.1 -->
+<interface>
+  <requires lib="gtk+" version="3.20"/>
+  <object class="GtkWindow" id="window1">
+    <property name="width_request">300</property>
+    <property name="height_request">300</property>
+    <property name="can_focus">False</property>
+    <property name="border_width">1</property>
+    <property name="default_width">320</property>
+    <property name="default_height">300</property>
+    <child>
+      <placeholder/>
+    </child>
+    <child>
+      <object class="GtkFixed" id="gfix">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <property name="hexpand">True</property>
+        <property name="vexpand">True</property>
+        <child>
+          <object class="GtkButton" id="button1">
+            <property name="label">button1</property>
+            <property name="name">btn_hello</property>
+            <property name="width_request">200</property>
+            <property name="height_request">34</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <property name="margin_left">1</property>
+            <property name="margin_right">1</property>
+            <property name="margin_top">1</property>
+            <property name="margin_bottom">1</property>
+          </object>
+          <packing>
+            <property name="x">57</property>
+            <property name="y">191</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label1">
+            <property name="width_request">200</property>
+            <property name="height_request">30</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="receives_default">True</property>
+            <property name="margin_left">1</property>
+            <property name="margin_right">1</property>
+            <property name="margin_top">1</property>
+            <property name="margin_bottom">1</property>
+            <property name="label" translatable="yes">Designed GTK+ UI 
+with Glade</property>
+            <property name="justify">center</property>
+            <attributes>
+              <attribute name="font-desc" value="Sans 18"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">50</property>
+            <property name="y">58</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label2">
+            <property name="width_request">200</property>
+            <property name="height_request">30</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="receives_default">True</property>
+            <property name="margin_left">1</property>
+            <property name="margin_right">1</property>
+            <property name="margin_top">1</property>
+            <property name="margin_bottom">1</property>
+            <property name="label" translatable="yes">Counter</property>
+            <attributes>
+              <attribute name="font-desc" value="Ubuntu 18"/>
+              <attribute name="foreground" value="#a4a400000000"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">50</property>
+            <property name="y">127</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>
