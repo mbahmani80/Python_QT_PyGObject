@@ -1,1 +1,2 @@
-# Python_QT_PyGObject
+# Python QT PyGObject
+https://itstorage.net/index.php/lprogramm
